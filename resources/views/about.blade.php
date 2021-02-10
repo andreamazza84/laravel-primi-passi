@@ -1,1 +1,4 @@
-<h1>About us</h1>
+@extends('welcome')
+@section('content')
+    <h1>About us</h1>
+@endsection

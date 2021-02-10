@@ -4,7 +4,7 @@
             <img src="{{ asset('/img/logo.png') }}" alt="">
         </div>
         <ul class="menu-right">
-            <li class="links"><a href="#">Home</a></li>
+            <li class="links"><a href="{{url('')}}">Home</a></li>
             <li class="links"><a href="{{ url('contacts') }}">Contacts</a></li>
             <li class="links"><a href="{{ url('about-us') }}">About Us</a></li>
             <li class="links"><a href="{{ url('history') }}">Story</a></li>
