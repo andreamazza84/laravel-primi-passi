@@ -3,13 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-html, body {
+body {
     background-color: #555;
-    color: #636b6f;
+    color: #f7f7f7;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     height: 100vh;
-    margin: 0;
 }
 /* Utility */
 .full-height {
@@ -49,13 +48,23 @@ html, body {
 .m-b-md {
     margin-bottom: 30px;
 }
+.container{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
 /* /Utility */
 /* header */
 #navbar{
+    height: 100px;
+}
+#navbar .container{
     display: flex;
     justify-content: space-between;
-    height: 100px;
-    margin-top: 0;
+}
+#navbar .menu-left{
+    display: flex;
+    align-items: center;
 }
 #navbar .menu-left img{
     height: 80px;
@@ -67,3 +76,29 @@ html, body {
     height: 100%;
 }
 /* /header */
+/* #main */
+#main{
+    background-color: #999;
+    height: calc(100vh - 400px);
+}
+/* /#main */
+/* #footer */
+#footer{
+    height: 300px;
+    background-color: #222;
+}
+#footer .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+#footer .menu{
+    /* width: calc(100% / 5); */
+    list-style: none;
+}
+#footer .menu li a{
+    color: #f7f7f7;
+    text-decoration: none;
+    line-height: 1.5;
+}
+/* /#footer */
